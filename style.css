@@ -1,0 +1,85 @@
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 16px;
+    margin-top: -20px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+}
+.inner{
+    display: inline-flex;
+    flex-direction: column;
+}
+.peach{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.preparation{
+    background-color: #fff7fc;
+    border-radius: 10px;
+    width: 600px;
+    text-align: left;
+}
+.preparation h2{
+    color: purple;
+    padding-left: 20px;
+}
+.time li{
+    padding: 10px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.ingredients li{
+    padding: 10px;
+}
+.instruct li{
+    padding: 5px;
+}
+.instruct h2, .ingredients h2, .new h2{
+    font-family: "Young serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    padding-left: 20px;
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young serif", serif;
+}
+table, td{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+    font-family: "Young serif", serif;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.same{
+    padding-right: 300px;
+    padding-left: 40px;
+}
+table{
+    margin-top: 30px;
+    border: none;
+}
